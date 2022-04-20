@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d4ae20-1ee2-4c9b-8188-28b5e3d832f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-files/registry-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/products.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-files/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/customers.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customers/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/CustomersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/CustomersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +50,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="clean install" />
+      <command value="clean install " />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegistryServiceApplication">
+  <component name="RunManager" selected="Application.CustomersApplication">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.configservice.ConfigServiceApplication" />
       <module name="config-service" />
@@ -96,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegistryServiceApplication" />
         <item itemvalue="Application.CustomersApplication" />
+        <item itemvalue="Application.RegistryServiceApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
       </list>
     </recent_temporary>

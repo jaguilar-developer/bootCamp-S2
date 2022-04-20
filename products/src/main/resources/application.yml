@@ -1,9 +1,5 @@
-server:
-  port: 8002
 spring:
-  data:
-    mongodb:
-      host: localhost
-      port: 27017
-      database: bootcamp_db
-      auto-index-creation: true
+  application:
+    name: products
+  config:
+    import: configserver:http://localhost:10000
