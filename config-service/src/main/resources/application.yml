@@ -1,5 +1,5 @@
 server:
-  port: 10001
+  port: 10000
 spring: 
   cloud:
     config:
@@ -8,5 +8,3 @@ spring:
           default-label: main
           uri: https://github.com/jaguilar-developer/bootCamp-S2
           search-paths: config-files
-  application:
-    name: bank-nttdata-service

@@ -1,5 +1,6 @@
 spring:
-  config:
-    import: optional:configserver:http://localhost:10001
   application:
     name: customers
+  cloud:
+    config:
+      uri: localhost:10001
