@@ -7,7 +7,6 @@
     <list default="true" id="af68076a-33c5-4b4f-be37-b76ee4a15f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/customers.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/controller/OperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/controller/OperationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clean install" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.CustomersApplication">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

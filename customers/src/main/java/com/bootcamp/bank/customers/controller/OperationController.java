@@ -20,13 +20,13 @@ public class OperationController {
         return operationService.findCustomerById(id);
     }
 
-    @CircuitBreaker(name="backendCB", fallbackMethod = "fallbackFindNumber")
     @GetMapping("/find-number")
+    @CircuitBreaker(name="customerService", fallbackMethod="fallbackFindNumber")
     public Mono<Customer> findCustomerByDocNumber(@RequestParam(name = "docNumber") String docNumber) {
         return operationService.findCustomerByDocNumber(docNumber);
     }
 
-    public Mono<Customer> fallbackFindNumber(@RequestParam(name = "docNumber") String docNumber){
+    public Mono<Customer> fallbackFindNumber(RuntimeException e){
         return null;
     }
 
