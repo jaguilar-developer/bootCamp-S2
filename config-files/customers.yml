@@ -7,3 +7,9 @@ spring:
       port: 27017
       database: bootcamp_db
       auto-index-creation: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: 'http://localhost:10002/eureka/'
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance-id:${random.value}}
