@@ -2,22 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-service" />
+        <module name="gateway-service" />
+        <module name="registry-service" />
         <module name="wallets" />
         <module name="customers" />
-        <module name="config-service" />
         <module name="transactions" />
-        <module name="registry-service" />
         <module name="products" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-service" target="11" />
       <module name="customers" target="11" />
+      <module name="gateway-service" target="11" />
       <module name="products" target="11" />
       <module name="registry-service" target="11" />
       <module name="transactions" target="11" />
@@ -28,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-service" options="-parameters" />
       <module name="customers" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="products" options="-parameters" />
       <module name="registry-service" options="-parameters" />
       <module name="transactions" options="-parameters" />
