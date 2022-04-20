@@ -7,7 +7,10 @@
     <file url="file://$PROJECT_DIR$/customers/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/products/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/products/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/transactions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transactions/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wallets/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wallets/src/main/resources" charset="UTF-8" />
   </component>
