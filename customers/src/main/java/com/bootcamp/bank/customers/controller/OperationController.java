@@ -2,6 +2,7 @@ package com.bootcamp.bank.customers.controller;
 
 import com.bootcamp.bank.customers.database.model.Customer;
 import com.bootcamp.bank.customers.service.OperationService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -19,9 +20,14 @@ public class OperationController {
         return operationService.findCustomerById(id);
     }
 
+    @CircuitBreaker(name="backendCB", fallbackMethod = "fallbackFindNumber")
     @GetMapping("/find-number")
     public Mono<Customer> findCustomerByDocNumber(@RequestParam(name = "docNumber") String docNumber) {
         return operationService.findCustomerByDocNumber(docNumber);
+    }
+
+    public Mono<Customer> fallbackFindNumber(@RequestParam(name = "docNumber") String docNumber){
+        return null;
     }
 
     @PostMapping("/save")
