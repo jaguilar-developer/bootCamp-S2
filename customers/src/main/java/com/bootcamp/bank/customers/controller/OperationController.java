@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
-    @RequestMapping("api/v1/customers")
+@RequestMapping("api/v1/customers")
 public class OperationController {
 
     private final @NonNull OperationService operationService;

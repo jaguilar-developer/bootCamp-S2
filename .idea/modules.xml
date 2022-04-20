@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Semana 2.iml" filepath="$PROJECT_DIR$/.idea/Semana 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customers/customers.iml" filepath="$PROJECT_DIR$/customers/customers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/products/products.iml" filepath="$PROJECT_DIR$/products/products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transactions/transactions.iml" filepath="$PROJECT_DIR$/transactions/transactions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallets/wallets.iml" filepath="$PROJECT_DIR$/wallets/wallets.iml" />
+    </modules>
+  </component>
+</project>
