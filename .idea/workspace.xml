@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af68076a-33c5-4b4f-be37-b76ee4a15f8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-files/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/customers.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/controller/OperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customers/src/main/java/com/bootcamp/bank/customers/controller/OperationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +42,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="clean install" />
+      <command value="mvn checkstyle:checkstyle" />
     </option>
   </component>
   <component name="RunManager" selected="Application.CustomersApplication">
@@ -120,5 +123,16 @@
       <updated>1650473008398</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
