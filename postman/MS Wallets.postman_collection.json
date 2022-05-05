@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "e67b6f66-5b28-465f-beff-c4babe35701c",
+		"name": "MS Wallets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveWallet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCustomer\" : \"76572863\",\r\n    \"ownerFirstName\" : \"Jerry\",\r\n    \"ownerLastName1\" : \"Aguilar\",\r\n    \"ownerLastName2\" : \"Cueto\",\r\n    \"ownerDocType\" : 1,\r\n    \"ownerDocNumber\": \"76572863\",\r\n    \"accountDetail\" : \"100200300\",\r\n    \"status\" : 1,\r\n    \"creationDate\" : \"19/04/2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/wallets/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findWallets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/wallets/find",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"wallets",
+						"find"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

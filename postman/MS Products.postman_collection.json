@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "731e55dc-a9e8-4f48-badb-d567527dcf1e",
+		"name": "MS Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "findProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/find",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n    \"typeId\" : \"1\",\r\n    \"subTypeId\" : \"P5\",\r\n    \"nameProduct\" : \"Pasivos - PYME\",\r\n    \"sttings\" : {\r\n        \"maintenanceInterest\" : 0,\r\n        \"maxTransactionsPerMonth\" : 5,\r\n        \"creditLimit\" : null,\r\n        \"minAveragePerDay\" : 500\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/products/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"products",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

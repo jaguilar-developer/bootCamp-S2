@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "ef5cf589-84ae-45af-85d5-bce8c5d54ddd",
+		"name": "MS Transactions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numOpe\": \"100202021\",\r\n    \"creationDate\": \"19-04-2000\",\r\n    \"amount\": 100,\r\n    \"idCurrency\": 1,\r\n    \"cardNumberOrig\": null,\r\n    \"accountNumberOrig\": \"100200300400\",\r\n    \"cardOwnerNameOrig\": \"Jerry Aguilar\",\r\n    \"idCustomerOrig\": \"76572863\",\r\n    \"idCustomerTypeOrig\": 1,\r\n    \"cardNumberDest\": null,\r\n    \"accountNumberDest\": \"100200300401\",\r\n    \"cardOwnerNameDest\": \"Jerry Aguilar\",\r\n    \"idCustomerDest\": \"76572863\",\r\n    \"idCustomerTypeDest\": 1,\r\n    \"status\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/transactions/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"transactions",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findTransactionsByNumOpe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/transactions/find-numope?numOpe=100202021",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"transactions",
+						"find-numope"
+					],
+					"query": [
+						{
+							"key": "numOpe",
+							"value": "100202021"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
