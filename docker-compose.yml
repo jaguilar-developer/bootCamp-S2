@@ -4,14 +4,14 @@ services:
     build:
       context: ./config-service
       dockerfile: Dockerfile
-    #restart: 'no'
+    restart: 'no'
     #container_name: config-service
     ports:
       - '10000:10000'
     networks:
       - 'jaguilcu-network'
   registry-server:
-    image: registry-server
+    image: registry-service
     build:
       context: ./registry-service
       dockerfile: Dockerfile
@@ -26,8 +26,11 @@ services:
     build:
       context: ./gateway-service
       dockerfile: Dockerfile
-    #restart: 'no'
+    #restart: 'always'
     #container_name: config-service
+    depends_on:
+      - "config-server"
+      - "registry-server"
     ports:
       - '8080:8080'
     networks:
