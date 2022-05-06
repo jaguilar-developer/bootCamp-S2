@@ -1,7 +1,7 @@
 services:
   config-server:
     image: config-service
-    restart: always
+    restart: 'no'
     container_name: config-service
     ports:
       - '10000:10000'
@@ -9,7 +9,7 @@ services:
       - 'jaguilcu-network'
   registry-server:
     image: registry-service
-    restart: always
+    restart: 'no'
     container_name: registry-service
     ports:
      - '10002:10002'
