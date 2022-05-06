@@ -67,5 +67,20 @@ services:
         condition: service_healthy
       gateway-server:
         condition: service_healthy
+  transactions:
+    image: ms-transactions
+    build:
+      context: ./transactions
+    ports:
+      - '5052:5052'
+    networks:
+      - 'jaguilcu-network'
+    depends_on:
+      config-server:
+        condition: service_healthy
+      registry-server:
+        condition: service_healthy
+      gateway-server:
+        condition: service_healthy
 networks:
  jaguilcu-network:

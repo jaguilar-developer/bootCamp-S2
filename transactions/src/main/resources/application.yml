@@ -2,4 +2,4 @@ spring:
   application:
     name: transactions
   config:
-    import: configserver:http://localhost:10000
+    import: configserver:http://config-server:10000

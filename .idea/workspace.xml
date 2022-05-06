@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76761c58-b491-4961-a567-f703187c283f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/transactions/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/customers.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/gateway-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/products.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/products.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-files/transactions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/transactions.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customers/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/customers/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customers/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customers/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/src/test/java/com/bootcamp/bank/products/ProductsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transactions/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
