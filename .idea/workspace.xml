@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af68076a-33c5-4b4f-be37-b76ee4a15f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-files/registry-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/registry-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegistryServiceApplication">
+  <component name="RunManager" selected="Application.ConfigServiceApplication">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.configservice.ConfigServiceApplication" />
       <module name="config-service" />
