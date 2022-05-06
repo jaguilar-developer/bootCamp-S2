@@ -1,5 +1,4 @@
-FROM openjdk:15
+FROM openjdk:19-jdk-alpine3.15
 VOLUME /tmp
-EXPOSE 2001
-ADD /target/registry-service-0.0.1-SNAPSHOT.jar registry-service.jar
+COPY target/*.jar registry-service.jar
 ENTRYPOINT ["java","-jar","/registry-service.jar"]

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af68076a-33c5-4b4f-be37-b76ee4a15f8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-files/registry-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/registry-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +59,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.WalletsApplication">
-    <configuration name="CustomersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.customers.CustomersApplication" />
-      <module name="customers" />
+  <component name="RunManager" selected="Application.RegistryServiceApplication">
+    <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.configservice.ConfigServiceApplication" />
+      <module name="config-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcamp.bank.customers.*" />
+          <option name="PATTERN" value="com.bootcamp.bank.configservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.products.ProductsApplication" />
-      <module name="products" />
+    <configuration name="RegistryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.registryservice.RegistryServiceApplication" />
+      <module name="registry-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcamp.bank.products.*" />
+          <option name="PATTERN" value="com.bootcamp.bank.registryservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegistryServiceApplication" />
+        <item itemvalue="Application.GatewayServiceApplication" />
+        <item itemvalue="Application.ConfigServiceApplication" />
         <item itemvalue="Application.WalletsApplication" />
         <item itemvalue="Application.TransactionsApplication" />
-        <item itemvalue="Application.ProductsApplication" />
-        <item itemvalue="Application.CustomersApplication" />
-        <item itemvalue="Application.GatewayServiceApplication" />
       </list>
     </recent_temporary>
   </component>

@@ -9,3 +9,5 @@ spring:
           default-label: main
           uri: https://github.com/jaguilar-developer/bootCamp-S2
           search-paths: config-files
+  application:
+    name: config-server
