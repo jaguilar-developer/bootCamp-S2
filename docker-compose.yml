@@ -35,5 +35,20 @@ services:
       - '8080:8080'
     networks:
       - 'jaguilcu-network'
+  products:
+    image: ms-products
+    build:
+      context: ./products
+      dockerfile: Dockerfile
+    #restart: 'always'
+    #container_name: config-service
+    depends_on:
+      - "config-server"
+      - "registry-server"
+      - "gateway-server"
+    ports:
+      - 5050
+    networks:
+      - 'jaguilcu-network'
 networks:
  jaguilcu-network:
