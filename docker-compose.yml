@@ -3,9 +3,8 @@ services:
     image: config-service
     build:
       context: ./config-service
-      dockerfile: Dockerfile
-    restart: 'no'
-    #container_name: config-service
+    healthcheck:
+      test: 'exit 0'
     ports:
       - '10000:10000'
     networks:
@@ -14,41 +13,59 @@ services:
     image: registry-service
     build:
       context: ./registry-service
-      dockerfile: Dockerfile
-    #restart: 'no'
-    #container_name: config-service
+    healthcheck:
+      test: 'exit 0'
     ports:
       - '10002:10002'
     networks:
       - 'jaguilcu-network'
+    depends_on:
+      config-server:
+        condition: service_healthy
   gateway-server:
     image: gateway-service
     build:
       context: ./gateway-service
-      dockerfile: Dockerfile
-    #restart: 'always'
-    #container_name: config-service
-    depends_on:
-      - "config-server"
-      - "registry-server"
+    healthcheck:
+      test: 'exit 0'
     ports:
       - '8080:8080'
     networks:
       - 'jaguilcu-network'
+    depends_on:
+      config-server:
+        condition: service_healthy
+      registry-server:
+        condition: service_healthy
   products:
     image: ms-products
     build:
       context: ./products
-      dockerfile: Dockerfile
-    #restart: 'always'
-    #container_name: config-service
-    depends_on:
-      - "config-server"
-      - "registry-server"
-      - "gateway-server"
     ports:
-      - 5050
+      - '5050:5050'
     networks:
       - 'jaguilcu-network'
+    depends_on:
+      config-server:
+        condition: service_healthy
+      registry-server:
+        condition: service_healthy
+      gateway-server:
+        condition: service_healthy
+  customers:
+    image: ms-customers
+    build:
+      context: ./customers
+    ports:
+      - '5051:5051'
+    networks:
+      - 'jaguilcu-network'
+    depends_on:
+      config-server:
+        condition: service_healthy
+      registry-server:
+        condition: service_healthy
+      gateway-server:
+        condition: service_healthy
 networks:
  jaguilcu-network:

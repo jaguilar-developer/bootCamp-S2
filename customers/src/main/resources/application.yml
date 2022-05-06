@@ -2,4 +2,4 @@ spring:
   application:
     name: customers
   config:
-    import: optional:configserver:http://jaguilcu-network:10000
+    import: configserver:http://config-server:10000

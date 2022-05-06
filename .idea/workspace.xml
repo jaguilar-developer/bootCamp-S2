@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76761c58-b491-4961-a567-f703187c283f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/products/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-files/customers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/customers.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/gateway-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-files/products.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/products.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/customers/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customers/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/src/test/java/com/bootcamp/bank/products/ProductsApplicationTests.java" beforeDir="false" />
@@ -23,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
