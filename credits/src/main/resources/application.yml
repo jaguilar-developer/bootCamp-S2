@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: credits
+  config:
+    import: configserver:http://localhost:10000

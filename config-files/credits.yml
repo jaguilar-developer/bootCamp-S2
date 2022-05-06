@@ -1,0 +1,14 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+spring:
+  data:
+    mongodb:
+      database: bootcampdb
+      uri: mongodb+srv://jaguilcu:cmaZzUpkJXvZPttO@bootcampdb.gd4uo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+      auto-index-creation: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: 'http://localhost:10002/eureka/'
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance-id:${random.value}}
