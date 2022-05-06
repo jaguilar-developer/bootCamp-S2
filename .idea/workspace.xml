@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af68076a-33c5-4b4f-be37-b76ee4a15f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transactions/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/transactions/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallets/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallets/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallets/src/main/java/com/bootcamp/bank/wallets/WalletsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallets/src/main/java/com/bootcamp/bank/wallets/WalletsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallets/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wallets/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
@@ -55,7 +54,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransactionsApplication">
+  <component name="RunManager" selected="Application.WalletsApplication">
     <configuration name="CustomersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.customers.CustomersApplication" />
       <module name="customers" />
@@ -95,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.registryservice.RegistryServiceApplication" />
-      <module name="registry-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bootcamp.bank.registryservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TransactionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.transactions.TransactionsApplication" />
       <module name="transactions" />
@@ -121,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WalletsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcamp.bank.wallets.WalletsApplication" />
+      <module name="wallets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootcamp.bank.wallets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WalletsApplication" />
         <item itemvalue="Application.TransactionsApplication" />
         <item itemvalue="Application.ProductsApplication" />
         <item itemvalue="Application.CustomersApplication" />
         <item itemvalue="Application.GatewayServiceApplication" />
-        <item itemvalue="Application.RegistryServiceApplication" />
       </list>
     </recent_temporary>
   </component>
