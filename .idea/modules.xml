@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Semana 2.iml" filepath="$PROJECT_DIR$/.idea/Semana 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accounts/accounts.iml" filepath="$PROJECT_DIR$/accounts/accounts.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/credits/credits.iml" filepath="$PROJECT_DIR$/credits/credits.iml" />
       <module fileurl="file://$PROJECT_DIR$/customers/customers.iml" filepath="$PROJECT_DIR$/customers/customers.iml" />

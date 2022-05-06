@@ -1,19 +1,36 @@
 services:
   config-server:
     image: config-service
-    restart: 'no'
-    container_name: config-service
+    build:
+      context: ./config-service
+      dockerfile: Dockerfile
+    #restart: 'no'
+    #container_name: config-service
     ports:
       - '10000:10000'
     networks:
       - 'jaguilcu-network'
   registry-server:
-    image: registry-service
-    restart: 'no'
-    container_name: registry-service
+    image: registry-server
+    build:
+      context: ./registry-service
+      dockerfile: Dockerfile
+    #restart: 'no'
+    #container_name: config-service
     ports:
-     - '10002:10002'
+      - '10002:10002'
     networks:
-     - 'jaguilcu-network'
+      - 'jaguilcu-network'
+  gateway-server:
+    image: gateway-service
+    build:
+      context: ./gateway-service
+      dockerfile: Dockerfile
+    #restart: 'no'
+    #container_name: config-service
+    ports:
+      - '8080:8080'
+    networks:
+      - 'jaguilcu-network'
 networks:
  jaguilcu-network:

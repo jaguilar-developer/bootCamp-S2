@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/credits/pom.xml" />
         <option value="$PROJECT_DIR$/wallets/pom.xml" />
+        <option value="$PROJECT_DIR$/accounts/pom.xml" />
         <option value="$PROJECT_DIR$/products/pom.xml" />
         <option value="$PROJECT_DIR$/customers/pom.xml" />
         <option value="$PROJECT_DIR$/transactions/pom.xml" />
@@ -15,4 +16,7 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
