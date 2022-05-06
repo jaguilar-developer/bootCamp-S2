@@ -4,8 +4,8 @@ spring:
   data:
     mongodb:
       database: bootcampdb
-        uri: mongodb+srv://jaguilcu:cmaZzUpkJXvZPttO@bootcampdb.gd4uo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-        auto-index-creation: true
+      uri: mongodb+srv://jaguilcu:cmaZzUpkJXvZPttO@bootcampdb.gd4uo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+      auto-index-creation: true
 eureka:
   client:
     serviceUrl:
